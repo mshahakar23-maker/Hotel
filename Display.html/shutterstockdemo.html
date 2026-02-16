@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        #firstSection{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            height: 500px;
+            align-items: center;
+        }
+        #firstSection div{
+            width: 100%;
+        }
+
+        #card{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 50px;
+        }
+        .card-item{
+            width: 100%;
+        }
+        .card-item img{
+            width: 100%;
+        }
+
+        @media only screen and (min-width:768px){
+             #firstSection div{
+            width: 48%;
+        }
+        .card-item{
+            width: 30%;
+        }
+        }
+
+         @media only screen and (min-width:1200px){
+             #firstSection div{
+            width: 23%;
+        }
+       
+        }
+    </style>
+</head>
+<body>
+       <section id="firstSection">
+           <div>
+            <img src="https://goodlayers.b-cdn.net/kingster/wp-content/uploads/2018/08/col-icon-1.png" alt="Image not found">
+            <h3>Education Services</h3>
+            <p>Kingster University was established by John Smith in 1920 for the public benefit and it is recognized.</p>
+            <a href="">Learn More</a>
+           </div>
+           <div>
+            <img src="https://goodlayers.b-cdn.net/kingster/wp-content/uploads/2018/08/col-icon-1.png" alt="Image not found">
+            <h3>Education Services</h3>
+            <p>Kingster University was established by John Smith in 1920 for the public benefit and it is recognized.</p>
+            <a href="">Learn More</a>
+           </div>
+           <div>
+            <img src="https://goodlayers.b-cdn.net/kingster/wp-content/uploads/2018/08/col-icon-1.png" alt="Image not found">
+            <h3>Education Services</h3>
+            <p>Kingster University was established by John Smith in 1920 for the public benefit and it is recognized.</p>
+            <a href="">Learn More</a>
+           </div>
+           <div>
+            <img src="https://goodlayers.b-cdn.net/kingster/wp-content/uploads/2018/08/col-icon-1.png" alt="Image not found">
+            <h3>Education Services</h3>
+            <p>Kingster University was established by John Smith in 1920 for the public benefit and it is recognized.</p>
+            <a href="">Learn More</a>
+           </div>
+       </section>
+
+       <section id="card">
+        <div class="card-item">
+            <img src="shutterstock_135948689.jpg" alt="Image Not found">
+            <p>June 6, 2016Blog</p>
+            <p>Professor Albert joint research on mobile money in Tanzania</p>
+            <button>Read More</button>
+
+        </div>
+        <div class="card-item">
+            <img src="shutterstock_135948689.jpg" alt="Image Not found">
+            <p>June 6, 2016Blog</p>
+            <p>Professor Albert joint research on mobile money in Tanzania</p>
+            <button>Read More</button>
+
+        </div>
+        <div class="card-item">
+            <img src="shutterstock_135948689.jpg" alt="Image Not found">
+            <p>June 6, 2016Blog</p>
+            <p>Professor Albert joint research on mobile money in Tanzania</p>
+            <button>Read More</button>
+
+        </div>
+       </section>
+</body>
+</html>
+
+
+
